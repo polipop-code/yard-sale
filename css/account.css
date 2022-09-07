@@ -1,0 +1,40 @@
+main {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.main__section-account {
+	grid-column: 2 / 12;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main__section-account form {
+	display: flex;
+	flex-direction: column;
+}
+
+.main__section-account h3 {
+	margin-bottom: 4rem;
+}
+
+.main__section-account label {
+	font-weight: bold;
+}
+
+.main__section-account input {
+	margin-bottom: 2rem;
+	height: 4rem;
+	padding-left: 0.8rem;
+	background-color: var(--text-input-field);
+	border: none;
+	border-radius: 0.8rem;
+}
+
+@media (min-width: 720px) {
+	.main__section-account {
+		grid-column: 4 / 10;
+	}
+}
