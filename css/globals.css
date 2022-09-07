@@ -82,3 +82,12 @@ button {
 	border: none;
 	border-radius: 0.8rem;
 }
+
+.secondary__button {
+	height: 4rem;
+	color: var(--hospital-green);
+	background-color: var(--white);
+	font-weight: bold;
+	border: 1px solid var(--hospital-green);
+	border-radius: 0.8rem;
+}

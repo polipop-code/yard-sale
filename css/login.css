@@ -1,0 +1,72 @@
+body {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.main {
+	grid-column: 2 / 11;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main > section {
+	display: flex;
+	flex-direction: column;
+}
+
+.main .main__section-logo {
+	margin-bottom: 4rem;
+}
+
+.main .main__section-logo img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main .main__section-form input {
+	margin-bottom: 1.2rem;
+	height: 4rem;
+	padding-left: 0.8rem;
+	background-color: var(--text-input-field);
+	border: none;
+	border-radius: 0.8rem;
+}
+
+.main .main__section-form button {
+	margin-bottom: 1.2rem;
+}
+
+.main .main__section-form a {
+	margin-bottom: 8rem;
+	text-align: center;
+	color: var(--hospital-green);
+}
+
+.main .main__section-signup {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.main .main__section-signup button {
+	width: 76%;
+	position: absolute;
+	bottom: 10vh;
+}
+
+@media (min-width: 720px) {
+	.main {
+		grid-column: 4 / 10;
+	}
+
+	.main .main__section-logo img {
+		width: 60%;
+	}
+
+	.main .main__section-signup button {
+		width: 48%;
+		bottom: 20vh;
+	}
+}
