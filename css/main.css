@@ -1,3 +1,54 @@
+header {
+	margin-bottom: 4rem;
+}
+
+/* Desktop Menu */
+.desktop-menu {
+	width: 16rem;
+	padding: 2rem 2rem 0;
+	border: 1px solid var(--very-light-pink);
+	border-radius: 0.8rem;
+	text-align: end;
+}
+
+.desktop-menu ul li a {
+	display: inline-block;
+	margin-bottom: 2rem;
+	color: var(--black);
+	font-weight: bold;
+}
+
+.desktop-menu ul li:last-child {
+	padding-top: 2rem;
+}
+
+.desktop-menu ul li:last-child a {
+	color: var(--hospital-green);
+	font-weight: 400;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+	min-height: 80vh;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.mobile-menu ul li {
+	margin-bottom: 2rem;
+}
+
+.mobile-menu ul li a {
+	font-weight: bold;
+	color: var(--black);
+}
+
+.mobile-menu button {
+	margin-top: 0;
+}
+
 main {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
