@@ -1,0 +1,40 @@
+header {
+	margin-bottom: 4rem;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.orders__container {
+	grid-column: 2 / 12;
+}
+
+.orders__container h3 {
+	margin-bottom: 4rem;
+}
+
+.order__item {
+	margin-bottom: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.order__item p {
+	font-weight: bold;
+}
+
+.order__item p:nth-child(2) {
+	font-weight: 400;
+	color: var(--very-light-pink);
+}
+
+.order__item div:nth-child(2) {
+	display: flex;
+}
+
+.order__item div:nth-child(2) p {
+	margin-right: 2rem;
+}
