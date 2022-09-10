@@ -1,5 +1,11 @@
 header {
 	margin-bottom: 4rem;
+	padding: 2rem;
+}
+
+header nav {
+	display: flex;
+	background-color: antiquewhite;
 }
 
 /* Desktop Menu */
